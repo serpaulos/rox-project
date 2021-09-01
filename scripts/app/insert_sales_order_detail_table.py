@@ -9,6 +9,6 @@ except exc.SQLAlchemyError as e:
     print("Database not connected", e)
 
 
-customer_data = pd.read_csv('data/Sales.Customer.csv',sep=';',decimal=",")
+sales_order_detail_table_data = pd.read_csv('data/Sales.SalesOrderDetail.csv',sep=';',decimal=",")
 
-customer_data.to_sql(con=engine,name='customer_table',if_exists='append',index=False)
+sales_order_detail_table_data.to_sql(con=engine,name='sales_order_detail_table',if_exists='append',index=False)
