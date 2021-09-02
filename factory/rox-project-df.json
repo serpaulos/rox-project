@@ -1,0 +1,9 @@
+{
+	"name": "rox-project-df",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd07e2f0-efc9-42da-9d0c-e41f548a9ce4",
+		"tenantId": "6f5f4e4a-1e7e-4b3f-9638-df60cd4b2630"
+	}
+}

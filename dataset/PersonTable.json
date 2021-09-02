@@ -1,0 +1,95 @@
+{
+	"name": "PersonTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMysql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [
+			{
+				"name": "BusinessEntityID",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PersonType",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "NameStyle",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Title",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "MiddleName",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "LastName",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Suffix",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "EmailPromotion",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "AdditionalContactInfo",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Demographics",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "rowguid",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "timestamp",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "person_table"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

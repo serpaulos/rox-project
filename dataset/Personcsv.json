@@ -1,0 +1,77 @@
+{
+	"name": "Personcsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "input_blob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Person.Person.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "BusinessEntityID",
+				"type": "String"
+			},
+			{
+				"name": "PersonType",
+				"type": "String"
+			},
+			{
+				"name": "NameStyle",
+				"type": "String"
+			},
+			{
+				"name": "Title",
+				"type": "String"
+			},
+			{
+				"name": "FirstName",
+				"type": "String"
+			},
+			{
+				"name": "MiddleName",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			},
+			{
+				"name": "Suffix",
+				"type": "String"
+			},
+			{
+				"name": "EmailPromotion",
+				"type": "String"
+			},
+			{
+				"name": "AdditionalContactInfo",
+				"type": "String"
+			},
+			{
+				"name": "Demographics",
+				"type": "String"
+			},
+			{
+				"name": "rowguid",
+				"type": "String"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
