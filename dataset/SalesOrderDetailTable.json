@@ -1,0 +1,82 @@
+{
+	"name": "SalesOrderDetailTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMysql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [
+			{
+				"name": "SalesOrderID",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SalesOrderDetailID",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CarrierTrackingNumber",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "OrderQty",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ProductID",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SpecialOfferID",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UnitPrice",
+				"type": "float",
+				"precision": 0,
+				"scale": 31
+			},
+			{
+				"name": "UnitPriceDiscount",
+				"type": "float",
+				"precision": 0,
+				"scale": 31
+			},
+			{
+				"name": "LineTotal",
+				"type": "float",
+				"precision": 0,
+				"scale": 31
+			},
+			{
+				"name": "rowguid",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "timestamp",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "sales_order_detail_table"
+		}
+	}
+}
